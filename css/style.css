@@ -1,0 +1,172 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #b4ad9e;
+    line-height: 24px;
+}
+
+header {
+    margin: 35px 0 35px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+.logo {
+    width: 12%;
+    /* border: 1px solid black; */
+    float: left;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 70%;
+    float: right;
+    /* border: 1px solid black; */
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    display: inline-block;
+    padding: 0 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #b4ad9e;
+
+}
+
+.menu ul li a:hover {
+    color: blueviolet;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0;
+}
+
+/* header sec end */
+
+/* bannner sec start */
+
+.banner_img img {
+    width: 100%;
+}
+
+/* bannner sec end */
+
+
+/* common css start */
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+span {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* common css start */
+
+/* about sec start */
+
+.about_us {
+    margin: 45px 0 60px 0;
+}
+
+.about_us h2 {
+    margin: 30px 0;
+}
+
+.about_us p {
+    margin-bottom: 60px;
+}
+
+/* about sec end */
+
+.lifeStyle {
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+.lifestyle1 {
+    width: 48%;
+    margin: 0 auto;
+    float: left;
+}
+
+.lifestyle1 img {
+    width: 100%;
+}
+
+.lifestyle1 span {
+    display: block;
+    margin: 30px 0;
+}
+
+.lifestyle1 h2 {
+    margin: 30px 0;
+}
+
+.lifestyle1 p {
+    margin-bottom: 90px;
+}
+
+.lifestyle2 {
+    width: 48%;
+    margin: 0 auto;
+    float: right;
+}
+
+.lifestyle2 img {
+    width: 100%;
+}
+
+.lifestyle2 span {
+    display: block;
+    margin: 30px 0;
+}
+
+.lifestyle2 h2 {
+    margin: 30px 0;
+}
+
+.lifestyle2 p {
+    margin-bottom: 90px;
+}
